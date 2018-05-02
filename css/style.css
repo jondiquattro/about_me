@@ -1,18 +1,52 @@
 * {
-color: rgba(37, 26, 25, 0.938);
-background-color: rgb(84, 170, 173);
+    color: rgba(37, 26, 25, 0.938);
+    
+    
 }
+.nameAndContact{
+    height: 100px;
+    width: 450px;
+    background-color: green;
 
-h1 {
+        
+        }
+
+.topTen{
+    height: 400px;
+    width: 450px;
+    background-color: green;
+
+        
+        }
+#firstLine {
+    border-width: 1px 1px 1px 1px;
+    border-style: solid;
     font-family: 'verdana', Times, sans-serif;
     left: 0px;
-    font-size: 50px;
+    font-size: 45px;
 }
+.nameAndContact p{
+    border-width: 1px 1px 1px 1px;
 
+    font-family: 'verdana', Times, sans-serif;
+    left: 0px;
+    font-size: 10px;
+
+}
+.nameAndContact p1{
+    font-size: 25px;
+}
+.nameAndContact h1{
+
+    padding: 0px;
+}
+/*
 #intro{
-
+    left: 0px;
+    font-size: 25px;
     font-family: 'verdana', Times, sans-serif;
     left: 0px;
     font-size: 25px;
     
 }
+*/
