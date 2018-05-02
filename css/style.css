@@ -1,4 +1,18 @@
 * {
-color: blue;
+color: rgba(37, 26, 25, 0.938);
+background-color: rgb(84, 170, 173);
+}
 
+h1 {
+    font-family: 'verdana', Times, sans-serif;
+    left: 0px;
+    font-size: 50px;
+}
+
+#intro{
+
+    font-family: 'verdana', Times, sans-serif;
+    left: 0px;
+    font-size: 25px;
+    
 }

@@ -73,7 +73,7 @@ else {
 }
 //Fifth question
 var fifthAnswer = prompt('Is this my spawn?').toLocaleLowerCase();
-console.log('the secondAnswer is ' + fifthAnswer);
+console.log('the FifthAnswer is ' + fifthAnswer);
 
 if (fifthAnswer === 'yes' || fifthAnswer === 'Y'){
     alert('Believe it or not this munchikin is his son');
@@ -81,6 +81,6 @@ if (fifthAnswer === 'yes' || fifthAnswer === 'Y'){
 }
 else {
     //wrong answer
-    alert('Go big BLUE!');
+    alert('Yeah that little guy is mine!');
     console.log('The user got the fifthAnswer wrong (no)');
 }
