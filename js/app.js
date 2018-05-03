@@ -1,7 +1,7 @@
 'use strict';
 // ask for users name
 
-
+/*
 
 var username = prompt('Hi what is your name?');
 
@@ -119,31 +119,29 @@ while (sixthAnswer != 6){
   
 }//outer loop
 
+*/
 
 //Question 7
 var correctAnswers = ['Ron', 'Nathan', 'Mary', 'Jenny', 'Becca', 'Laura', 'Ben', 'Claire', 'Sam', 'Tad', 'Mark', 'Emily'];
 
-
 alert('do you want to guess my siblings names?');
-
 
 var guessLeft = 4;
 console.log('First guess ' + guess);
 
-
+var guessCount = 0;
 
 //while loop that searches through array
 while (guessLeft > 0){
 
     var guess = prompt('Enter a name');
     var right = false; //starts off wrong
-    var guessCount = 0;
+    
     guessCount ++;
+
     for (var i = 0; i < 13; i ++){
         console.log(correctAnswers[i]);
-       
-
-        
+               
           if ( guess == correctAnswers [i]){
             
             console.log('You guessed ' + guess + ' you were right');
@@ -159,9 +157,7 @@ if (right == true){
 }
         guessLeft --;
         
-
-
-        alert('You were wrong, you have ' + guessLeft + 'guesses left');
+    alert('You were wrong, you have ' + guessLeft + ' guesses left');
 }//outer whil
 
 
