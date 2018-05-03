@@ -1,7 +1,7 @@
 'use strict';
 // ask for users name
 
-/*
+
 
 var username = prompt('Hi what is your name?');
 
@@ -33,7 +33,7 @@ console.log('The user got the FirstAnswer correct (yes)');
 
 //Next question
 
-var secondAnswer = prompt('Is Jon from New York?').toLocaleLowerCase();
+var secondAnswer = prompt('Is Jon from New York?').toLowerCase();
 console.log('the secondAnswer is ' + secondAnswer);
 
 //no = correct
@@ -47,7 +47,7 @@ else {
     console.log('The user got the secondAnswer wrong (yes)');
 }
 
-var thirdAnswer = prompt('Does Jon play the saxaphone?').toLocaleLowerCase();
+var thirdAnswer = prompt('Does Jon play the saxaphone?').toLowerCase();
 console.log('the secondAnswer is ' + thirdAnswer);
 
 if (thirdAnswer === 'no' || thirdAnswer === 'n'){
@@ -61,7 +61,7 @@ else {
 }
 
 // fourth question
-var fourthAnswer = prompt('Does Jon like the Giants?').toLocaleLowerCase();
+var fourthAnswer = prompt('Does Jon like the Giants?').toLowerCase();
 console.log('the secondAnswer is ' + fourthAnswer);
 
 if (fourthAnswer === 'yes' || fourthAnswer === 'Y'){
@@ -74,7 +74,7 @@ else {
     console.log('The user got the thirdAnswer wrong (no)');
 }
 //Fifth question
-var fifthAnswer = prompt('Is this my spawn?').toLocaleLowerCase();
+var fifthAnswer = prompt('Is this my spawn?').toLowerCase();
 console.log('the FifthAnswer is ' + fifthAnswer);
 
 if (fifthAnswer === 'yes' || fifthAnswer === 'Y'){
@@ -119,11 +119,9 @@ while (sixthAnswer != 6){
   
 }//outer loop
 
-*/
 
 //Question 7
-var correctAnswers = ['Ron', 'Nathan', 'Mary', 'Jenny', 'Becca', 'Laura', 'Ben', 'Claire', 'Sam', 'Tad', 'Mark', 'Emily'];
-
+var correctAnswers = ['ron', 'nathan', 'mary', 'jenny', 'becca', 'laura', 'ben', 'claire', 'sam', 'tad', 'mark', 'emily'];
 alert('do you want to guess my siblings names?');
 
 var guessLeft = 4;
@@ -134,7 +132,7 @@ var guessCount = 0;
 //while loop that searches through array
 while (guessLeft > 0){
 
-    var guess = prompt('Enter a name');
+    var guess = prompt('Enter a name').toLowerCase();
     var right = false; //starts off wrong
     
     guessCount ++;
