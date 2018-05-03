@@ -1,6 +1,8 @@
 'use strict';
 // ask for users name
 
+
+
 var username = prompt('Hi what is your name?');
 
 
@@ -84,3 +86,108 @@ else {
     alert('Yeah that little guy is mine!');
     console.log('The user got the fifthAnswer wrong (no)');
 }
+
+
+
+alert('Lets play a guessing game!');
+alert('Pick a number between 1 and 10!');
+var count = 0;
+var sixthAnswer = 0;
+
+
+while (sixthAnswer != 6){
+    count +=1;
+  console.log('count is '+ count);
+    if (count === 5){
+    alert('Sorry you are out of tries!');
+    break;
+  }
+  
+  sixthAnswer = prompt('What is your number?');
+
+  console.log('user entered ' + sixthAnswer);
+    if (sixthAnswer <= 4){
+    alert('guess higher');
+  }
+  else if (sixthAnswer >= 7){
+    alert('guess lower');
+  }
+  
+  if (sixthAnswer == 6){
+    alert('Great job you did it in ' + count + ' guesses');
+  }
+  
+}//outer loop
+
+
+//Question 7
+var correctAnswers = ['Ron', 'Nathan', 'Mary', 'Jenny', 'Becca', 'Laura', 'Ben', 'Claire', 'Sam', 'Tad', 'Mark', 'Emily'];
+
+
+alert('do you want to guess my siblings names?');
+
+
+var guessLeft = 4;
+console.log('First guess ' + guess);
+
+
+
+//while loop that searches through array
+while (guessLeft > 0){
+
+    var guess = prompt('Enter a name');
+    var right = false; //starts off wrong
+    var guessCount = 0;
+    guessCount ++;
+    for (var i = 0; i < 13; i ++){
+        console.log(correctAnswers[i]);
+       
+
+        
+          if ( guess == correctAnswers [i]){
+            
+            console.log('You guessed ' + guess + ' you were right');
+            alert('You were correct!');
+            right = true;
+            break;
+          }
+        }//first for loop
+//if to break while loop
+if (right == true){
+    alert('you got it in ' + guessCount );
+    break;
+}
+        guessLeft --;
+        
+
+
+        alert('You were wrong, you have ' + guessLeft + 'guesses left');
+}//outer whil
+
+
+  
+  
+  
+  
+
+
+
+
+
+  
+
+
+
+  
+
+
+
+  
+
+
+
+
+
+  
+
+

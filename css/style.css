@@ -1,13 +1,11 @@
 * {
     color: rgba(37, 26, 25, 0.938);
-    
-    
+       
 }
 .nameAndContact{
-    height: 100px;
-    width: 450px;
+    height: 175px;
+    width: 445px;
     background-color: green;
-
         
         }
 
@@ -15,9 +13,21 @@
     height: 400px;
     width: 450px;
     background-color: green;
-
-        
+    border-width:  0px;
+    margin: 0px;
         }
+.topTen ul {
+            border-width:  0px;
+            margin: 0px;
+        }
+
+.topTen ol {
+            border-width:  0px;
+            margin: 0px;
+        }
+
+
+
 #firstLine {
     border-width: 1px 1px 1px 1px;
     border-style: solid;
@@ -30,7 +40,7 @@
 
     font-family: 'verdana', Times, sans-serif;
     left: 0px;
-    font-size: 10px;
+    font-size: 18px;
 
 }
 .nameAndContact p1{
@@ -40,13 +50,8 @@
 
     padding: 0px;
 }
-/*
-#intro{
-    left: 0px;
-    font-size: 25px;
+#Activities{
     font-family: 'verdana', Times, sans-serif;
     left: 0px;
     font-size: 25px;
-    
 }
-*/
