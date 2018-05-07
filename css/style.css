@@ -2,74 +2,132 @@
     color: rgba(37, 26, 25, 0.938);
        
 }
+img{
+    position: relative right;
+
+}
 body{
-    background-color: green;
+    background-color: rgb(255, 255, 255);
+    background-image: url("../img/circuitry.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 1;
+    /* filter: alpha(opacity=50); For IE8 and earlier */
 }
 .leftColumn {
-    height: 175px;
-    width: 222px;
-    /* background-color: green; */
-    border-style: solid;
-    border-width: 10px;
-        
-        }
-.leftColumn h2{
-
-    border-style: solid;
     font-family: 'verdana', Times, sans-serif;
-    left: 0px;
+    font-size: 25px; /*font for everything on the left*/
+    color: #000;
+    font-weight: 900;
+    /* border-style: solid;
+    border-width: 10px; */
+    height: auto;
+    width: 200px;
+    background-color: rgb(232, 236, 251);
+    padding-left: 10px;
+ }
+
+ .leftColumn h1{
+     font-family: 'verdana', Times, sans-serif;
+    font-size: 25px; 
+    color: #000;
+    font-weight: 900; 
+    padding-left: 10px;
+    
+    background-color: rgb(232, 236, 251);
+    
+}   
+
+ .middle{
+    
+    font-family: 'verdana', Times, sans-serif;
+    font-size: 14px;
+    color: #000;
+    font-weight: 900;
+    border-top: 10px;
+    border-style: solid;
+    
+    height: auto; 
+    background-color: rgb(232, 236, 251);
+    padding: 10px;
+
+} 
+#contactInfo{
+    font-family: 'verdana', Times, sans-serif;
     font-size: 25px;
-
-
+    color: #000;
+    font-weight: 900;
+    /* border-top: 10px;
+    border-style: solid; */
+    padding: 0px;
+    height: auto; 
+    background-color: rgb(232, 236, 251);
+    /* padding: 10px; */
 }
 .topTen{
-    height: 400px;
-    width: 450px;
+    padding-left: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 20px;
+    height: auto;
+    width: auto;
     /* background-color: green; */
-    border-width:  5px;
-    margin: 0px;
+     /* border-style: solid;
+    border-width:  5px;  */
+
+    background-color: rgb(232, 236, 251);
         }
+        
 .topTen ul {
+    
             border-width:  0px;
             margin: 0px;
+            background-color: rgb(232, 236, 251);
+            height: auto;
+            width: auto;
         }
 
 .topTen ol {
             border-width:  0px;
             margin: 0px;
+            background-color: rgb(232, 236, 251);
+            height: auto;
+    width: auto;
         }
-
-
-
-#firstLine {
-    border-width: 1px 1px 1px 1px;
-    border-style: solid;
+.topTen li, p{
     font-family: 'verdana', Times, sans-serif;
-    left: 0px;
-    font-size: 45px;
+    font-size: 25px;
+    color: #000;
+    font-weight: 900;
+    width: auto;
+    padding-left: 10px;
 }
-.nameAndContact p{
-    border-width: 1px 1px 1px 1px;
-
+#contactInfo p{
     font-family: 'verdana', Times, sans-serif;
-    left: 0px;
     font-size: 18px;
+    color: #000;
+    font-weight: 900;
 
 }
-.nameAndContact p1{
-    font-size: 25px;
-}
-.nameAndContact h1{
 
-    padding: 0px;
-}
-#Activities{
+#middleHead{
     font-family: 'verdana', Times, sans-serif;
-    left: 0px;
-    font-size: 25px;
+    font-size: 18px;
+    color: #000;
+    font-weight: 900;
+
+    background-color: rgb(232, 236, 251);
+    
 }
-nav {
-    border-style: solid;
-    border-width: 10px;
-    border-color: brown
-}
+ #awards{
+    font-family: 'verdana', Times, sans-serif;
+    font-size: 18px;
+    color: #000;
+    font-weight: 900;
+    /* border-bottom: 10px; */
+    border-top: 10px; 
+    border-style: solid; 
+    background-color: rgb(232, 236, 251);
+
+    
+} 
